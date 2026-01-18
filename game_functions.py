@@ -1,12 +1,10 @@
-import random
 
 # function to be used by game_1: Guess the Number
 def pick_value(poss_values):
     len_value_list = len(poss_values)
-    if len_value_list%2 !=0:
-        x=poss_values[(round(len_value_list/2))-1]
-    else:
-        x= poss_values[(len_value_list/2)-1] 
+    
+    x=poss_values[(round(len_value_list/2))]
+    
     return x
     
 # function to be used in game_2: Higher or Lower
