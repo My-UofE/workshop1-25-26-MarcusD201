@@ -3,7 +3,7 @@
 def pick_value(poss_values):
     len_value_list = len(poss_values)
     
-    x=poss_values[(round(len_value_list/2))]
+    x=poss_values[(len_value_list//2)]
     
     return x
     
